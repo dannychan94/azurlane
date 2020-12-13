@@ -1,0 +1,11 @@
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\azur lane.exe.config
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\azur lane.exe
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\azur lane.pdb
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\azur lane.xml
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.vbprojAssemblyReference.cache
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur_lane.Form1.resources
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur_lane.Resources.resources
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.vbproj.GenerateResource.cache
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.exe
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.xml
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.pdb
