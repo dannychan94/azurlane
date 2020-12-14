@@ -113,6 +113,174 @@ Namespace My
                 Me("poractual") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property flota1() As Integer
+            Get
+                Return CType(Me("flota1"),Integer)
+            End Get
+            Set
+                Me("flota1") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property flota2() As Integer
+            Get
+                Return CType(Me("flota2"),Integer)
+            End Get
+            Set
+                Me("flota2") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property sp1() As Integer
+            Get
+                Return CType(Me("sp1"),Integer)
+            End Get
+            Set
+                Me("sp1") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property sp2() As Integer
+            Get
+                Return CType(Me("sp2"),Integer)
+            End Get
+            Set
+                Me("sp2") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property sp3() As Integer
+            Get
+                Return CType(Me("sp3"),Integer)
+            End Get
+            Set
+                Me("sp3") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property sp4() As Integer
+            Get
+                Return CType(Me("sp4"),Integer)
+            End Get
+            Set
+                Me("sp4") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property sp5() As Integer
+            Get
+                Return CType(Me("sp5"),Integer)
+            End Get
+            Set
+                Me("sp5") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property bt1() As Integer
+            Get
+                Return CType(Me("bt1"),Integer)
+            End Get
+            Set
+                Me("bt1") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property bt2() As Integer
+            Get
+                Return CType(Me("bt2"),Integer)
+            End Get
+            Set
+                Me("bt2") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property bt3() As Integer
+            Get
+                Return CType(Me("bt3"),Integer)
+            End Get
+            Set
+                Me("bt3") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property bt4() As Integer
+            Get
+                Return CType(Me("bt4"),Integer)
+            End Get
+            Set
+                Me("bt4") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property bt5() As Integer
+            Get
+                Return CType(Me("bt5"),Integer)
+            End Get
+            Set
+                Me("bt5") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property obj() As Integer
+            Get
+                Return CType(Me("obj"),Integer)
+            End Get
+            Set
+                Me("obj") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property actual() As Integer
+            Get
+                Return CType(Me("actual"),Integer)
+            End Get
+            Set
+                Me("actual") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
