@@ -9,3 +9,4 @@ E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane
 E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.exe
 E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.xml
 E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.pdb
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur_lane.Form2.resources

@@ -109,6 +109,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -151,6 +154,29 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FWPae6p.ico" />
+    <None Include="Resources\x_butten.png" />
+    <None Include="Resources\chara_yichui.png" />
+    <None Include="Resources\chara_xiyatu.png" />
+    <None Include="Resources\chara_xiangbin.png" />
+    <None Include="Resources\chara_wuqi.png" />
+    <None Include="Resources\chara_meiyinci.png" />
+    <None Include="Resources\chara_luyijiushi.png" />
+    <None Include="Resources\chara_luoen.png" />
+    <None Include="Resources\chara_junzhu.png" />
+    <None Include="Resources\chara_jiasikenie.png" />
+    <None Include="Resources\chara_haiwangxing.png" />
+    <None Include="Resources\chara_feiteliedadi.png" />
+    <None Include="Resources\chara_deleike.png" />
+    <None Include="Resources\chara_chuyun.png" />
+    <None Include="Resources\chara_chaijun.png" />
+    <None Include="Resources\chara_beifeng.png" />
+    <None Include="Resources\chara_aoding.png" />
+    <None Include="Resources\chara_zuozhiya.png" />
+    <None Include="Resources\b05bg.png" />
+    <None Include="Resources\btn_refresh.png" />
+    <None Include="Resources\4_l.png" />
+    <None Include="Resources\bg_story_ailevel.png" />
+    <None Include="Resources\05.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

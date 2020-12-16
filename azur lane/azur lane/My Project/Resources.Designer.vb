@@ -63,16 +63,6 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property _05() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_05", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        '''</summary>
         Friend ReadOnly Property _1000k() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("_1000k", resourceCulture)
@@ -96,6 +86,16 @@ Namespace My.Resources
         Friend ReadOnly Property _4_l() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("_4_l", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property b05bg() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("b05bg", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -143,6 +143,176 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property chara_aoding() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_aoding", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_beifeng() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_beifeng", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_chaijun() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_chaijun", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_chuyun() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_chuyun", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_deleike() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_deleike", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_feiteliedadi() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_feiteliedadi", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_haiwangxing() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_haiwangxing", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_jiasikenie() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_jiasikenie", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_junzhu() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_junzhu", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_luoen() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_luoen", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_luyijiushi() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_luyijiushi", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_meiyinci() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_meiyinci", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_wuqi() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_wuqi", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_xiangbin() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_xiangbin", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_xiyatu() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_xiyatu", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_yichui() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_yichui", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property chara_zuozhiya() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("chara_zuozhiya", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property close() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("close", resourceCulture)
@@ -166,6 +336,16 @@ Namespace My.Resources
         Friend ReadOnly Property Imagen1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Imagen1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property x_butten() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("x_butten", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

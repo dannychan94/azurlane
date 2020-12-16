@@ -4,8 +4,7 @@ Public Class Form1
     Public MoveForm As Boolean
     Public MoveForm_MousePosition As Point
 
-    Public Sub MoveForm_MouseDown(sender As Object, e As MouseEventArgs) Handles _
-    Panel1.MouseDown
+    Public Sub MoveForm_MouseDown(sender As Object, e As MouseEventArgs) Handles MyBase.MouseDown
 
         If e.Button = MouseButtons.Left Then
             MoveForm = True
@@ -15,8 +14,7 @@ Public Class Form1
 
     End Sub
 
-    Public Sub MoveForm_MouseMove(sender As Object, e As MouseEventArgs) Handles _
-    Panel1.MouseMove
+    Public Sub MoveForm_MouseMove(sender As Object, e As MouseEventArgs) Handles MyBase.MouseMove
 
         If MoveForm Then
             Me.Location = Me.Location + (e.Location - MoveForm_MousePosition)
@@ -24,8 +22,7 @@ Public Class Form1
 
     End Sub
 
-    Public Sub MoveForm_MouseUp(sender As Object, e As MouseEventArgs) Handles _
-    Panel1.MouseUp
+    Public Sub MoveForm_MouseUp(sender As Object, e As MouseEventArgs) Handles MyBase.MouseUp
 
         If e.Button = MouseButtons.Left Then
             MoveForm = False
@@ -50,17 +47,6 @@ Public Class Form1
 
         Label5.Text = Math.Round((meta - (meta * pact / 100)) / tew, 0, MidpointRounding.AwayFromZero)
         Label3.Text = TextBox6.Text + "%"
-
-        If (TextBox5.Text = "1000000") Then
-            Label2.Text = "Collection I"
-            PictureBox1.BackgroundImage = My.Resources._1000k
-        ElseIf (TextBox5.Text = "2000000") Then
-            Label2.Text = "Collection II"
-            PictureBox1.BackgroundImage = My.Resources._2000k
-        Else
-            Label2.Text = "Collection"
-            PictureBox1.BackgroundImage = My.Resources._1000k
-        End If
 
     End Sub
 
@@ -94,17 +80,6 @@ Public Class Form1
         Dim tew = Val(Label4.Text)
 
         Label5.Text = Math.Round((meta - (meta * pact / 100)) / tew, 0, MidpointRounding.AwayFromZero)
-
-        If (TextBox5.Text = "1000000") Then
-            Label2.Text = "Collection I"
-            PictureBox1.BackgroundImage = My.Resources._1000k
-        ElseIf (TextBox5.Text = "2000000") Then
-            Label2.Text = "Collection II"
-            PictureBox1.BackgroundImage = My.Resources._2000k
-        Else
-            Label2.Text = "Collection"
-            PictureBox1.BackgroundImage = My.Resources._1000k
-        End If
 
         Label3.Text = TextBox6.Text + "%"
         ProgressBar1.Value = Val(TextBox6.Text)
