@@ -154,6 +154,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FWPae6p.ico" />
+    <None Include="Resources\sp.png" />
+    <None Include="Resources\sb.png" />
     <None Include="Resources\x_butten.png" />
     <None Include="Resources\chara_yichui.png" />
     <None Include="Resources\chara_xiyatu.png" />
