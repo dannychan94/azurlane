@@ -63,6 +63,10 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        'Form2.Show()
+        'Form2.Visible = False
+
         TextBox1.Text = My.Settings.cantporflota
         TextBox2.Text = My.Settings.combporstage
         TextBox3.Text = My.Settings.exppromedio
@@ -92,9 +96,16 @@ Public Class Form1
         My.Settings.exppromedio = TextBox3.Text
         My.Settings.meta = TextBox5.Text
         My.Settings.poractual = TextBox6.Text
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Me.Close()
+        Form3.Show()
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+
+        Form2.Show()
+        Me.Visible = False
     End Sub
 End Class

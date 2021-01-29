@@ -22,6 +22,7 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -44,9 +45,12 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label11
@@ -141,7 +145,7 @@ Partial Class Form1
         Me.TextBox6.ForeColor = System.Drawing.Color.White
         Me.TextBox6.Location = New System.Drawing.Point(289, 206)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(0, 24)
+        Me.TextBox6.Size = New System.Drawing.Size(50, 24)
         Me.TextBox6.TabIndex = 34
         '
         'ProgressBar1
@@ -291,6 +295,19 @@ Partial Class Form1
         Me.PictureBox3.TabIndex = 46
         Me.PictureBox3.TabStop = False
         '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.BackgroundImage = Global.azur_lane.My.Resources.Resources.btn_quick_1920
+        Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox4.Location = New System.Drawing.Point(7, 352)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(69, 113)
+        Me.PictureBox4.TabIndex = 48
+        Me.PictureBox4.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox4, "Evento")
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -299,6 +316,7 @@ Partial Class Form1
         Me.BackgroundImage = Global.azur_lane.My.Resources.Resources.b05bg
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(390, 546)
+        Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
@@ -330,6 +348,7 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -355,4 +374,6 @@ Partial Class Form1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

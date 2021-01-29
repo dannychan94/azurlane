@@ -10,3 +10,10 @@ E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane
 E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.xml
 E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.pdb
 E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur_lane.Form2.resources
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.vbproj.CoreCompileInputs.cache
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur_lane.Form3.resources
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\MetroFramework.Design.dll
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\MetroFramework.dll
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\MetroFramework.Fonts.dll
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.vbproj.CopyComplete
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\ReaLTaiizor.dll

@@ -123,6 +123,36 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property btn_index_blue() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("btn_index_blue", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property btn_quick_1920() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("btn_quick_1920", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property btn_quick_1920_l() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("btn_quick_1920 l", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property btn_refresh() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("btn_refresh", resourceCulture)
