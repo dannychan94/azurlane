@@ -118,25 +118,94 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bg_banama_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_banama_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chara_chuyun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_chuyun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2000k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2000k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_junzhu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_junzhu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Captura_de_pantalla_2020_11_24_121105" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla 2020-11-24 121105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chara_wuqi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_wuqi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_xiyatu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_xiyatu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_index_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_index_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_yichui" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_yichui.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b05bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b05bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_beifeng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_beifeng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_jiasikenie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_jiasikenie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FWPae6p" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FWPae6p.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Imagen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Imagen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chara_deleike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_deleike.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_zuozhiya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_zuozhiya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_story_ailevel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_story_ailevel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_chaijun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_chaijun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_feiteliedadi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_feiteliedadi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_quick_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_quick_1920.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_aoding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_aoding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_haiwangxing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_haiwangxing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4_l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4_l.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_xiangbin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_xiangbin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_1000k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1000k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_2000k" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2000k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="x_butten" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x_butten.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_banama_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_banama_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_meiyinci" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_meiyinci.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_luyijiushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_luyijiushi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chara_luoen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chara_luoen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_quick_1920 l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_quick_1920 l.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

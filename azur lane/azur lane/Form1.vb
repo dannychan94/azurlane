@@ -4,8 +4,7 @@ Public Class Form1
     Public MoveForm As Boolean
     Public MoveForm_MousePosition As Point
 
-    Public Sub MoveForm_MouseDown(sender As Object, e As MouseEventArgs) Handles _
-    Panel1.MouseDown
+    Public Sub MoveForm_MouseDown(sender As Object, e As MouseEventArgs) Handles MyBase.MouseDown
 
         If e.Button = MouseButtons.Left Then
             MoveForm = True
@@ -15,8 +14,7 @@ Public Class Form1
 
     End Sub
 
-    Public Sub MoveForm_MouseMove(sender As Object, e As MouseEventArgs) Handles _
-    Panel1.MouseMove
+    Public Sub MoveForm_MouseMove(sender As Object, e As MouseEventArgs) Handles MyBase.MouseMove
 
         If MoveForm Then
             Me.Location = Me.Location + (e.Location - MoveForm_MousePosition)
@@ -24,8 +22,7 @@ Public Class Form1
 
     End Sub
 
-    Public Sub MoveForm_MouseUp(sender As Object, e As MouseEventArgs) Handles _
-    Panel1.MouseUp
+    Public Sub MoveForm_MouseUp(sender As Object, e As MouseEventArgs) Handles MyBase.MouseUp
 
         If e.Button = MouseButtons.Left Then
             MoveForm = False
@@ -51,17 +48,6 @@ Public Class Form1
         Label5.Text = Math.Round((meta - (meta * pact / 100)) / tew, 0, MidpointRounding.AwayFromZero)
         Label3.Text = TextBox6.Text + "%"
 
-        If (TextBox5.Text = "1000000") Then
-            Label2.Text = "Collection I"
-            PictureBox1.BackgroundImage = My.Resources._1000k
-        ElseIf (TextBox5.Text = "2000000") Then
-            Label2.Text = "Collection II"
-            PictureBox1.BackgroundImage = My.Resources._2000k
-        Else
-            Label2.Text = "Collection"
-            PictureBox1.BackgroundImage = My.Resources._1000k
-        End If
-
     End Sub
 
     Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles TextBox6.KeyUp
@@ -77,6 +63,10 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        'Form2.Show()
+        'Form2.Visible = False
+
         TextBox1.Text = My.Settings.cantporflota
         TextBox2.Text = My.Settings.combporstage
         TextBox3.Text = My.Settings.exppromedio
@@ -95,17 +85,6 @@ Public Class Form1
 
         Label5.Text = Math.Round((meta - (meta * pact / 100)) / tew, 0, MidpointRounding.AwayFromZero)
 
-        If (TextBox5.Text = "1000000") Then
-            Label2.Text = "Collection I"
-            PictureBox1.BackgroundImage = My.Resources._1000k
-        ElseIf (TextBox5.Text = "2000000") Then
-            Label2.Text = "Collection II"
-            PictureBox1.BackgroundImage = My.Resources._2000k
-        Else
-            Label2.Text = "Collection"
-            PictureBox1.BackgroundImage = My.Resources._1000k
-        End If
-
         Label3.Text = TextBox6.Text + "%"
         ProgressBar1.Value = Val(TextBox6.Text)
 
@@ -117,9 +96,16 @@ Public Class Form1
         My.Settings.exppromedio = TextBox3.Text
         My.Settings.meta = TextBox5.Text
         My.Settings.poractual = TextBox6.Text
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Me.Close()
+        Form3.Show()
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+
+        Form2.Show()
+        Me.Visible = False
     End Sub
 End Class
