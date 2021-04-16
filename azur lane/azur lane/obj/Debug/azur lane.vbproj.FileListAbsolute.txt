@@ -17,3 +17,4 @@ E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\MetroFram
 E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\MetroFramework.Fonts.dll
 E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur lane.vbproj.CopyComplete
 E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\bin\Debug\ReaLTaiizor.dll
+E:\Users\danny\Documents\GitHub\azurlane\azur lane\azur lane\obj\Debug\azur_lane.Form4.resources

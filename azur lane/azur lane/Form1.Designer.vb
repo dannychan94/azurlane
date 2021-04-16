@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
@@ -32,7 +32,6 @@ Partial Class Form1
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
@@ -47,6 +46,8 @@ Partial Class Form1
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.NightButton1 = New ReaLTaiizor.Controls.NightButton()
+        Me.ThunderProgressBar1 = New ReaLTaiizor.Controls.ThunderProgressBar()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -147,13 +148,6 @@ Partial Class Form1
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(50, 24)
         Me.TextBox6.TabIndex = 34
-        '
-        'ProgressBar1
-        '
-        Me.ProgressBar1.Location = New System.Drawing.Point(19, 526)
-        Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(352, 12)
-        Me.ProgressBar1.TabIndex = 33
         '
         'Label4
         '
@@ -288,7 +282,7 @@ Partial Class Form1
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImage = Global.azur_lane.My.Resources.Resources.chara_luyijiushi
+        Me.PictureBox3.BackgroundImage = Global.azur_lane.My.Resources.Resources.chara_luoen
         Me.PictureBox3.Location = New System.Drawing.Point(60, 302)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(253, 222)
@@ -308,6 +302,42 @@ Partial Class Form1
         Me.PictureBox4.TabStop = False
         Me.ToolTip1.SetToolTip(Me.PictureBox4, "Evento")
         '
+        'NightButton1
+        '
+        Me.NightButton1.BackColor = System.Drawing.Color.Transparent
+        Me.NightButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.NightButton1.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.NightButton1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.NightButton1.ForeColor = System.Drawing.Color.White
+        Me.NightButton1.HoverBackColor = System.Drawing.Color.Gray
+        Me.NightButton1.HoverForeColor = System.Drawing.Color.Transparent
+        Me.NightButton1.InterpolationType = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic
+        Me.NightButton1.Location = New System.Drawing.Point(330, 145)
+        Me.NightButton1.MinimumSize = New System.Drawing.Size(10, 10)
+        Me.NightButton1.Name = "NightButton1"
+        Me.NightButton1.NormalBackColor = System.Drawing.Color.White
+        Me.NightButton1.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality
+        Me.NightButton1.PressedBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.NightButton1.PressedForeColor = System.Drawing.Color.Transparent
+        Me.NightButton1.Radius = 5
+        Me.NightButton1.Size = New System.Drawing.Size(48, 25)
+        Me.NightButton1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias
+        Me.NightButton1.TabIndex = 49
+        Me.NightButton1.Text = "check"
+        '
+        'ThunderProgressBar1
+        '
+        Me.ThunderProgressBar1.BackColor = System.Drawing.Color.Transparent
+        Me.ThunderProgressBar1.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.ThunderProgressBar1.Location = New System.Drawing.Point(19, 525)
+        Me.ThunderProgressBar1.Maximum = 100
+        Me.ThunderProgressBar1.Name = "ThunderProgressBar1"
+        Me.ThunderProgressBar1.ShowPercentage = False
+        Me.ThunderProgressBar1.Size = New System.Drawing.Size(352, 12)
+        Me.ThunderProgressBar1.TabIndex = 50
+        Me.ThunderProgressBar1.Text = "ThunderProgressBar1"
+        Me.ThunderProgressBar1.Value = 0
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -316,10 +346,12 @@ Partial Class Form1
         Me.BackgroundImage = Global.azur_lane.My.Resources.Resources.b05bg
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(390, 546)
-        Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.ThunderProgressBar1)
+        Me.Controls.Add(Me.NightButton1)
+        Me.Controls.Add(Me.PictureBox4)
+        Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
@@ -336,7 +368,6 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox5)
         Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Label3)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -361,7 +392,6 @@ Partial Class Form1
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents Label4 As Label
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents TextBox3 As TextBox
@@ -376,4 +406,6 @@ Partial Class Form1
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents NightButton1 As ReaLTaiizor.Controls.NightButton
+    Friend WithEvents ThunderProgressBar1 As ReaLTaiizor.Controls.ThunderProgressBar
 End Class

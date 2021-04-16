@@ -108,6 +108,12 @@
     <Compile Include="Form3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -178,6 +187,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FWPae6p.ico" />
+    <None Include="Resources\blueprint_icon.png" />
+    <None Include="Resources\TrainCamp_Panel_Tec.png" />
+    <None Include="Resources\technology_bg.png" />
+    <None Include="Resources\star_level_bg_2.png" />
+    <None Include="Resources\laxin.png" />
+    <None Include="Resources\fleet_icon.png" />
+    <None Include="Resources\tech_icon.png" />
     <None Include="Resources\btn_quick_1920 l.png" />
     <None Include="Resources\btn_quick_1920.png" />
     <None Include="Resources\btn_index_blue.png" />

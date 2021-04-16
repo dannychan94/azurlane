@@ -3,6 +3,11 @@
 Public Class Form1
     Public MoveForm As Boolean
     Public MoveForm_MousePosition As Point
+    Public CantidadPerFlota As Integer
+    Public CombatesPerStage As Integer
+    Public ExpPerEachOne As Integer
+    Public Meta As Integer
+    Public PercAct As Integer
 
     Public Sub MoveForm_MouseDown(sender As Object, e As MouseEventArgs) Handles MyBase.MouseDown
 
@@ -29,38 +34,6 @@ Public Class Form1
             Me.Cursor = Cursors.Default
         End If
     End Sub
-    Private Sub TextBox3_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox3.KeyUp
-
-        Dim cpf = Val(TextBox1.Text)
-        Dim cps = Val(TextBox2.Text)
-        Dim epcu = Val(TextBox3.Text)
-
-        Label4.Text = cpf * epcu * cps
-
-    End Sub
-
-    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.KeyUp
-
-        Dim meta = Val(TextBox5.Text)
-        Dim pact = Val(TextBox6.Text)
-        Dim tew = Val(Label4.Text)
-
-        Label5.Text = Math.Round((meta - (meta * pact / 100)) / tew, 0, MidpointRounding.AwayFromZero)
-        Label3.Text = TextBox6.Text + "%"
-
-    End Sub
-
-    Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles TextBox6.KeyUp
-
-        Dim meta = Val(TextBox5.Text)
-        Dim pact = Val(TextBox6.Text)
-        Dim tew = Val(Label4.Text)
-
-        Label5.Text = Math.Round((meta - (meta * pact / 100)) / tew, 0, MidpointRounding.AwayFromZero)
-        Label3.Text = TextBox6.Text + "%"
-        ProgressBar1.Value = Val(TextBox6.Text)
-
-    End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -73,20 +46,20 @@ Public Class Form1
         TextBox5.Text = My.Settings.meta
         TextBox6.Text = My.Settings.poractual
 
-        Dim cpf = Val(TextBox1.Text)
-        Dim cps = Val(TextBox2.Text)
-        Dim epcu = Val(TextBox3.Text)
+        CantidadPerFlota = Val(TextBox1.Text)
+        CombatesPerStage = Val(TextBox2.Text)
+        ExpPerEachOne = Val(TextBox3.Text)
 
-        Label4.Text = cpf * epcu * cps
+        Label4.Text = CantidadPerFlota * ExpPerEachOne * CombatesPerStage
 
-        Dim meta = Val(TextBox5.Text)
-        Dim pact = Val(TextBox6.Text)
-        Dim tew = Val(Label4.Text)
+        Meta = Val(TextBox5.Text)
+        PercAct = Val(TextBox6.Text)
 
-        Label5.Text = Math.Round((meta - (meta * pact / 100)) / tew, 0, MidpointRounding.AwayFromZero)
+        Label5.Text = Math.Round((Meta - (Meta * PercAct / 100)) / Val(Label4.Text), 0, MidpointRounding.AwayFromZero)
 
         Label3.Text = TextBox6.Text + "%"
-        ProgressBar1.Value = Val(TextBox6.Text)
+        ThunderProgressBar1.Value = PercAct
+
 
     End Sub
 
@@ -107,5 +80,23 @@ Public Class Form1
 
         Form2.Show()
         Me.Visible = False
+    End Sub
+
+    Private Sub NightButton1_Click(sender As Object, e As EventArgs) Handles NightButton1.Click
+
+        CantidadPerFlota = Val(TextBox1.Text)
+        CombatesPerStage = Val(TextBox2.Text)
+        ExpPerEachOne = Val(TextBox3.Text)
+
+        Label4.Text = CantidadPerFlota * ExpPerEachOne * CombatesPerStage
+
+        Meta = Val(TextBox5.Text)
+        PercAct = Val(TextBox6.Text)
+
+        Label5.Text = Math.Round((Meta - (Meta * PercAct / 100)) / Val(Label4.Text), 0, MidpointRounding.AwayFromZero)
+
+        Label3.Text = TextBox6.Text + "%"
+
+        ThunderProgressBar1.Value = PercAct
     End Sub
 End Class

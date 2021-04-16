@@ -52,6 +52,11 @@ azur lane
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:azur_lane.My.Resources.Resources.blueprint_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:azur_lane.My.Resources.Resources.btn_index_blue">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -163,6 +168,26 @@ azur lane
 </summary>
 </member>
 <member name="P:azur_lane.My.Resources.Resources.FWPae6p">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.laxin">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.tech_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.technology_bg">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.TrainCamp_Panel_Tec">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
