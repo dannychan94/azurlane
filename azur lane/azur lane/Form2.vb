@@ -29,16 +29,12 @@ Public Class Form2
             Me.Cursor = Cursors.Default
         End If
     End Sub
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
 
 
         My.Settings.flota1 = TextBox1.Text
-        My.Settings.flota2 = TextBox2.Text
         My.Settings.sp1 = TextBox3.Text
         My.Settings.sp2 = TextBox4.Text
         My.Settings.sp3 = TextBox5.Text
@@ -54,7 +50,6 @@ Public Class Form2
 
 
         Dim flota1 = Val(TextBox1.Text)
-        Dim flota2 = Val(TextBox2.Text)
         Dim sp1 = Val(TextBox3.Text)
         Dim sp2 = Val(TextBox4.Text)
         Dim sp3 = Val(TextBox5.Text)
@@ -74,11 +69,6 @@ Public Class Form2
         Label23.Text = (flota1 * bat4) + 10
         Label24.Text = (flota1 * bat5) + 10
 
-        Label25.Text = (flota2 * bat1) + 10
-        Label26.Text = (flota2 * bat2) + 10
-        Label27.Text = (flota2 * bat3) + 10
-        Label28.Text = (flota2 * bat4) + 10
-        Label29.Text = (flota2 * bat5) + 10
 
         Label40.Text = obj - act
 
@@ -105,25 +95,6 @@ Public Class Form2
             Math.Round(metac / sp5, 0, MidpointRounding.AwayFromZero) * Val(Label24.Text)
 
 
-        Label35.Text = Math.Round(metac / sp1, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp1, 0, MidpointRounding.AwayFromZero) * Val(Label25.Text)
-
-        Label36.Text = Math.Round(metac / sp2, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp2, 0, MidpointRounding.AwayFromZero) * Val(Label26.Text)
-
-        Label37.Text = Math.Round(metac / sp3, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp3, 0, MidpointRounding.AwayFromZero) * Val(Label27.Text)
-
-        Label38.Text = Math.Round(metac / sp4, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp4, 0, MidpointRounding.AwayFromZero) * Val(Label28.Text)
-
-        Label39.Text = Math.Round(metac / sp5, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp5, 0, MidpointRounding.AwayFromZero) * Val(Label29.Text)
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles Me.Load
@@ -132,7 +103,6 @@ Public Class Form2
         Form1.Visible = False
 
         TextBox1.Text = My.Settings.flota1
-        TextBox2.Text = My.Settings.flota2
         TextBox3.Text = My.Settings.sp1
         TextBox4.Text = My.Settings.sp2
         TextBox5.Text = My.Settings.sp3
@@ -147,7 +117,6 @@ Public Class Form2
         TextBox14.Text = My.Settings.actual
 
         Dim flota1 = Val(TextBox1.Text)
-        Dim flota2 = Val(TextBox2.Text)
         Dim sp1 = Val(TextBox3.Text)
         Dim sp2 = Val(TextBox4.Text)
         Dim sp3 = Val(TextBox5.Text)
@@ -167,11 +136,6 @@ Public Class Form2
         Label23.Text = (flota1 * bat4) + 10
         Label24.Text = (flota1 * bat5) + 10
 
-        Label25.Text = (flota2 * bat1) + 10
-        Label26.Text = (flota2 * bat2) + 10
-        Label27.Text = (flota2 * bat3) + 10
-        Label28.Text = (flota2 * bat4) + 10
-        Label29.Text = (flota2 * bat5) + 10
 
         Label40.Text = obj - act
 
@@ -198,32 +162,11 @@ Public Class Form2
             Math.Round(metac / sp5, 0, MidpointRounding.AwayFromZero) * Val(Label24.Text)
 
 
-        Label35.Text = Math.Round(metac / sp1, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp1, 0, MidpointRounding.AwayFromZero) * Val(Label25.Text)
-
-        Label36.Text = Math.Round(metac / sp2, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp2, 0, MidpointRounding.AwayFromZero) * Val(Label26.Text)
-
-        Label37.Text = Math.Round(metac / sp3, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp3, 0, MidpointRounding.AwayFromZero) * Val(Label27.Text)
-
-        Label38.Text = Math.Round(metac / sp4, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp4, 0, MidpointRounding.AwayFromZero) * Val(Label28.Text)
-
-        Label39.Text = Math.Round(metac / sp5, 0, MidpointRounding.AwayFromZero) &
-            " / " &
-            Math.Round(metac / sp5, 0, MidpointRounding.AwayFromZero) * Val(Label29.Text)
-
 
     End Sub
 
     Private Sub Form2_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
         My.Settings.flota1 = TextBox1.Text
-        My.Settings.flota2 = TextBox2.Text
         My.Settings.sp1 = TextBox3.Text
         My.Settings.sp2 = TextBox4.Text
         My.Settings.sp3 = TextBox5.Text
@@ -245,7 +188,7 @@ Public Class Form2
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
 
-        Form1.Show()
+        Form4.Show()
         Me.Hide()
     End Sub
 End Class

@@ -37,12 +37,27 @@ azur lane
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:azur_lane.My.Resources.Resources.Azuma">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:azur_lane.My.Resources.Resources.b05bg">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:azur_lane.My.Resources.Resources.ban">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:azur_lane.My.Resources.Resources.bg_banama_1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.bg_down">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -53,6 +68,11 @@ azur lane
 </summary>
 </member>
 <member name="P:azur_lane.My.Resources.Resources.blueprint_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.blueprintI">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -82,87 +102,32 @@ azur lane
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:azur_lane.My.Resources.Resources.chara_aoding">
+<member name="P:azur_lane.My.Resources.Resources.Champagne">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:azur_lane.My.Resources.Resources.chara_beifeng">
+<member name="P:azur_lane.My.Resources.Resources.Cheshire">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:azur_lane.My.Resources.Resources.chara_chaijun">
+<member name="P:azur_lane.My.Resources.Resources.Drake">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:azur_lane.My.Resources.Resources.chara_chuyun">
+<member name="P:azur_lane.My.Resources.Resources.fazhen01_4">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:azur_lane.My.Resources.Resources.chara_deleike">
+<member name="P:azur_lane.My.Resources.Resources.fondo">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:azur_lane.My.Resources.Resources.chara_feiteliedadi">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_haiwangxing">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_jiasikenie">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_junzhu">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_luoen">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_luyijiushi">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_meiyinci">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_wuqi">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_xiangbin">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_xiyatu">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_yichui">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.chara_zuozhiya">
+<member name="P:azur_lane.My.Resources.Resources.Friedrich">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -172,7 +137,202 @@ azur lane
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:azur_lane.My.Resources.Resources.Gascogne">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Georgia">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_azuma">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_champagne">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_cheshire">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_drake">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_frederich">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_gascogne">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_georgia">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_ibuki">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_izumo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_kitakase">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_mainz">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_monarch">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_neptune">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_odin">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_roon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_saint">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.gra_seattle">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Ibuki">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.item_2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Izumo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.jianzhong01">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Kitakaze">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:azur_lane.My.Resources.Resources.laxin">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.liaotian02">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Mainz">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Monarch">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Neptune">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Odin">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.pr1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.pr2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.pr3">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Roon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Saint_Louis">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.Seattle">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.star_big">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.star_big_bg">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.task_tpl_go">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.task_working">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -187,7 +347,27 @@ azur lane
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:azur_lane.My.Resources.Resources.test">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.toggle_tag_selected">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:azur_lane.My.Resources.Resources.TrainCamp_Panel_Tec">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.ver">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.version_selected">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

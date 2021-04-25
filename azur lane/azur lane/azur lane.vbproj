@@ -61,12 +61,13 @@
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="ReaLTaiizor, Version=3.7.8.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ReaLTaiizor.3.7.8.1\lib\net472\ReaLTaiizor.dll</HintPath>
+    <Reference Include="ReaLTaiizor, Version=3.7.8.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReaLTaiizor.3.7.8.4\lib\net472\ReaLTaiizor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -130,6 +131,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TransparentLabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransparentPictureBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -187,6 +194,61 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FWPae6p.ico" />
+    <None Include="Resources\version_selected.png" />
+    <None Include="Resources\version_3.png" />
+    <None Include="Resources\version_2.png" />
+    <None Include="Resources\version_1.png" />
+    <None Include="Resources\chara_luyijiushi.png" />
+    <None Include="Resources\chara_beifeng.png" />
+    <None Include="Resources\chara_luoen.png" />
+    <None Include="Resources\chara_meiyinci.png" />
+    <None Include="Resources\chara_deleike.png" />
+    <None Include="Resources\chara_feiteliedadi.png" />
+    <None Include="Resources\chara_chaijun.png" />
+    <None Include="Resources\chara_chuyun.png" />
+    <None Include="Resources\chara_xiyatu.png" />
+    <None Include="Resources\chara_xiangbin.png" />
+    <None Include="Resources\chara_jiasikenie.png" />
+    <None Include="Resources\chara_junzhu.png" />
+    <None Include="Resources\chara_yichui.png" />
+    <None Include="Resources\chara_wuqi.png" />
+    <None Include="Resources\chara_aoding.png" />
+    <None Include="Resources\chara_haiwangxing.png" />
+    <None Include="Resources\chara_zuozhiya.png" />
+    <None Include="Resources\eye 1.png" />
+    <None Include="Resources\Gascogne.png" />
+    <None Include="Resources\Kitakaze.png" />
+    <None Include="Resources\Georgia.png" />
+    <None Include="Resources\Seattle.png" />
+    <None Include="Resources\Mainz.png" />
+    <None Include="Resources\Drake.png" />
+    <None Include="Resources\Azuma.png" />
+    <None Include="Resources\Cheshire.png" />
+    <None Include="Resources\Odin.png" />
+    <None Include="Resources\Champagne.png" />
+    <None Include="Resources\Friedrich.png" />
+    <None Include="Resources\ban.png" />
+    <None Include="Resources\1280px-Ibuki.png" />
+    <None Include="Resources\1024px-Monarch.png" />
+    <None Include="Resources\HMS_Neptune.png" />
+    <None Include="Resources\Izumo.png" />
+    <None Include="Resources\Saint_Louis.png" />
+    <None Include="Resources\fondo.png" />
+    <None Include="Resources\task_working.png" />
+    <None Include="Resources\star_big_bg.png" />
+    <None Include="Resources\star_big.png" />
+    <None Include="Resources\liaotian02.png" />
+    <None Include="Resources\jianzhong01.png" />
+    <None Include="Resources\blueprintI.png" />
+    <None Include="Resources\Roon.png" />
+    <None Include="Resources\bg_down.png" />
+    <None Include="Resources\bg_2.png" />
+    <None Include="Resources\blueprint_bg.png" />
+    <None Include="Resources\toggle_tag_selected.png" />
+    <None Include="Resources\task_tpl_go.png" />
+    <None Include="Resources\fazhen01_4.png" />
+    <None Include="Resources\item_2.png" />
+    <None Include="Resources\test.png" />
     <None Include="Resources\blueprint_icon.png" />
     <None Include="Resources\TrainCamp_Panel_Tec.png" />
     <None Include="Resources\technology_bg.png" />
@@ -200,23 +262,6 @@
     <None Include="Resources\sp.png" />
     <None Include="Resources\sb.png" />
     <None Include="Resources\x_butten.png" />
-    <None Include="Resources\chara_yichui.png" />
-    <None Include="Resources\chara_xiyatu.png" />
-    <None Include="Resources\chara_xiangbin.png" />
-    <None Include="Resources\chara_wuqi.png" />
-    <None Include="Resources\chara_meiyinci.png" />
-    <None Include="Resources\chara_luyijiushi.png" />
-    <None Include="Resources\chara_luoen.png" />
-    <None Include="Resources\chara_junzhu.png" />
-    <None Include="Resources\chara_jiasikenie.png" />
-    <None Include="Resources\chara_haiwangxing.png" />
-    <None Include="Resources\chara_feiteliedadi.png" />
-    <None Include="Resources\chara_deleike.png" />
-    <None Include="Resources\chara_chuyun.png" />
-    <None Include="Resources\chara_chaijun.png" />
-    <None Include="Resources\chara_beifeng.png" />
-    <None Include="Resources\chara_aoding.png" />
-    <None Include="Resources\chara_zuozhiya.png" />
     <None Include="Resources\b05bg.png" />
     <None Include="Resources\btn_refresh.png" />
     <None Include="Resources\4_l.png" />

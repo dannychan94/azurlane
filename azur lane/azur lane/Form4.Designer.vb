@@ -34,7 +34,7 @@ Partial Class Form4
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.BackgroundImage = Global.azur_lane.My.Resources.Resources.blueprint_icon
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox2.Location = New System.Drawing.Point(188, 187)
+        Me.PictureBox2.Location = New System.Drawing.Point(614, 213)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(211, 219)
         Me.PictureBox2.TabIndex = 4
@@ -43,11 +43,11 @@ Partial Class Form4
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.BackgroundImage = Global.azur_lane.My.Resources.Resources.tech_icon
+        Me.PictureBox1.BackgroundImage = Global.azur_lane.My.Resources.Resources.test
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(636, 187)
+        Me.PictureBox1.Location = New System.Drawing.Point(117, 170)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(211, 219)
+        Me.PictureBox1.Size = New System.Drawing.Size(192, 262)
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
@@ -75,6 +75,7 @@ Partial Class Form4
         Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form4"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form4"
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
