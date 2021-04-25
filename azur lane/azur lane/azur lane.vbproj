@@ -194,6 +194,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FWPae6p.ico" />
+    <None Include="Resources\title_print.png" />
+    <None Include="Resources\viewall_1920.png" />
+    <None Include="Resources\btn_big_grey.png" />
+    <None Include="Resources\btn_big_blue.png" />
+    <None Include="Resources\print_v.png" />
+    <None Include="Resources\Captura de pantalla 2021-04-25 000406.png" />
     <None Include="Resources\version_selected.png" />
     <None Include="Resources\version_3.png" />
     <None Include="Resources\version_2.png" />

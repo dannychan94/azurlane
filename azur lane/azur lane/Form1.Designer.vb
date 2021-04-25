@@ -171,11 +171,11 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.BackgroundImage = Global.azur_lane.My.Resources.Resources.Champagne
+        Me.PictureBox1.BackgroundImage = Global.azur_lane.My.Resources.Resources.Saint_Louis
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(-442, -280)
+        Me.PictureBox1.Location = New System.Drawing.Point(-83, -185)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1821, 1285)
+        Me.PictureBox1.Size = New System.Drawing.Size(1090, 960)
         Me.PictureBox1.TabIndex = 51
         Me.PictureBox1.TabStop = False
         '

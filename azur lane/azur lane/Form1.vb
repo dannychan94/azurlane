@@ -221,8 +221,8 @@ Public Class Form1
         Select Case Label1.Text
             Case "pr1"
                 PictureBox1.BackgroundImage = My.Resources.Saint_Louis
-                PictureBox1.Location = New Point(-66, -168)
-                PictureBox1.Size = New Size(1014, 924)
+                PictureBox1.Location = New Point(-83, -185)
+                PictureBox1.Size = New Size(1090, 960)
 
                 Label12.Text = "Saint_Louis"
                 Label2.Text = "Saint Louis"
@@ -374,8 +374,8 @@ Public Class Form1
                 Label3.Text = "BB"
             Case "pr3"
                 PictureBox1.BackgroundImage = My.Resources.Champagne
-                PictureBox1.Location = New Point(-347, -210)
-                PictureBox1.Size = New Size(1672, 1091)
+                PictureBox1.Location = New Point(-417, -282)
+                PictureBox1.Size = New Size(1779, 1285)
 
                 Label12.Text = "Champagne"
                 Label2.Text = "Champagne"
