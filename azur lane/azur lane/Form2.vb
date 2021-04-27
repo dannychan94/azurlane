@@ -84,6 +84,12 @@ Public Class Form2
         Label1.Parent = PictureBox1
         Label1.Location = New Point(Label1.Location.X - PictureBox1.Location.X, Label1.Location.Y - PictureBox1.Location.Y)
 
+        PictureBox4.Parent = PictureBox15
+        PictureBox4.Location = New Point(PictureBox4.Location.X - PictureBox15.Location.X, PictureBox4.Location.Y - PictureBox15.Location.Y)
+
+        Label3.Parent = PictureBox15
+        Label3.Location = New Point(Label3.Location.X - PictureBox15.Location.X, Label3.Location.Y - PictureBox15.Location.Y)
+
 
         Form1.Show()
         Form1.Visible = False

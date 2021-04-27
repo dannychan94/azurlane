@@ -194,6 +194,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FWPae6p.ico" />
+    <None Include="Resources\sel_bg.png" />
+    <None Include="Resources\sup.png" />
     <None Include="Resources\title_print.png" />
     <None Include="Resources\viewall_1920.png" />
     <None Include="Resources\btn_big_grey.png" />

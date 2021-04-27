@@ -317,54 +317,6 @@ Namespace My
                 Me("pr") = value
             End Set
         End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
-        Public Property pic1sizew() As Integer
-            Get
-                Return CType(Me("pic1sizew"),Integer)
-            End Get
-            Set
-                Me("pic1sizew") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
-        Public Property pic1locx() As Integer
-            Get
-                Return CType(Me("pic1locx"),Integer)
-            End Get
-            Set
-                Me("pic1locx") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
-        Public Property pic1locy() As Integer
-            Get
-                Return CType(Me("pic1locy"),Integer)
-            End Get
-            Set
-                Me("pic1locy") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
-        Public Property pic1sizeh() As Integer
-            Get
-                Return CType(Me("pic1sizeh"),Integer)
-            End Get
-            Set
-                Me("pic1sizeh") = value
-            End Set
-        End Property
     End Class
 End Namespace
 

@@ -22,11 +22,6 @@ azur lane
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
-<member name="P:azur_lane.My.Resources.Resources._4_l">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:azur_lane.My.Resources.Resources.Azuma">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -68,11 +63,6 @@ azur lane
 </summary>
 </member>
 <member name="P:azur_lane.My.Resources.Resources.btn_refresh">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:azur_lane.My.Resources.Resources.Captura_de_pantalla_2021_04_25_000406">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -292,6 +282,16 @@ azur lane
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:azur_lane.My.Resources.Resources.sel_bg">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.sup">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:azur_lane.My.Resources.Resources.task_tpl_go">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -333,6 +333,11 @@ azur lane
 </summary>
 </member>
 <member name="P:azur_lane.My.Resources.Resources.ver">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:azur_lane.My.Resources.Resources.version_selected">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
